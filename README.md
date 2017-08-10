@@ -25,7 +25,7 @@ The objective of this challenge is to set up git-flow on a bitbucket repository.
 ```bash
 git clone https://[user]@bitbucket.endava.com/scm/bd/devops-rampup.git
 ```
-To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it.
+To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it for each actor in a software delivery team (developer, design lead, tester).
 
 ### 2. AWS
 
@@ -56,7 +56,7 @@ To complete this challenge, create registry, dockerfiles and images for the inst
 
 ### 7. Orchestration and clustering
 
-To complete this challenge, choose tool and create cluster for the app we've used.
+To complete this challenge, choose a tool and create cluster for the app we've used.
 
 ### 8. Infrastructure as a code
 
