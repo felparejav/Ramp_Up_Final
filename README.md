@@ -1,24 +1,37 @@
 # DevOps Ramp-up Projects
 
+Welcome to the Endava Bogotá DevOps Ramp Up site. DevOps has a wide variety of practices, tools and methodologies which enable us to be an important part of and agile delivery culture. Most of the DevOps practitioners are part of the Continuous Delivery Practice. More info on the practice can be found here:
+
+https://conf.endava.com/display/CDP/Continuous+Delivery+Practice
+
+https://weblog.endava.com/continuous-delivery-initiative/introduction-to-cd/
+
+This ramp-up is presented in challenges. Each challenge is chose to show new joiners the basics in some of the DevOps practices, and is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in AWS concepts. They are ordered according our current view of projects necessities. 
+
 
 
 ## Challenges
 
-The idea is to advance as much u can in the challenges
+You are going to set up a Continuous Delivery pipeline for an application from scratch. In challenges 1 to 4, you will have to set up the Source Code Management tool and branching methodologies, set up cloud based environments for the application, gain experience with configuration management tools, and setting up Continuous Integration.
+
+Challenges 5 to 8 build upon your pipeline to include more practices. These ones are more open for you to choose the tool stack of your preference.
 
 ### 1. SCM: Set up git-flow
 
- - bitbucket
- - git clone
+The objective of this challenge is to set up git-flow on a bitbucket repository. You will be provided with access to create the branch strategy you need. 
 
-Clone the repo and create **n FIXME** branches
+ - Clone the repo and create **n FIXME** branches
 
 ```bash
 git clone https://[user]@bitbucket.endava.com/scm/bd/devops-rampup.git
 ```
-Where user is the Bitbucket user
+To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it.
 
 ### 2. AWS
+
+The objective of this challenge is to set up the environments on which the application will run.
+
+To complete this challenge, create the environments following each of these steps and showcase the configuration needed.
 
 Create AWS account
  - Setup a custom VPC
@@ -29,22 +42,29 @@ Create AWS account
 
 ### 3. Configuration Management
 
-Use a CM tool (ansible, chef, puppet ...) to deploy jenkins, runtimes, webbapp
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. 
 
  ### 4. CI/CD
 
-Create jenkins jobs for CI/CD on to provisioner
+To complete this challenge, create all the Jenkins jobs needed to automate CI on the newly created environment.
 
  ### 5. Monitoring
- Define stack and setup
+To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
 
 ### 6. Containerization
-Create registry, create images for the apps
+To complete this challenge, create registry, dockerfiles and images for the installed apps.
 
 ### 7. Orchestration and clustering
 
-Choose tool and create cluster
+To complete this challenge, choose tool and create cluster for the app we've used.
 
 ### 8. Infrastructure as a code
 
-Choose tool and create environments
+To complete this challenge, choose tool and create the necessary scripts to automate the provisioning of the environments for the application.
+
+### 9. Showcase challenge
+
+If you still have time to spare, create your own challenge and show the rest of us the implementation of other DevOps dealings. Examples: Artifact Repository configuration, Test Automation Frameworks integration, Database deployment automation, packaging management automation, build scripting frameworks, release management tools, etc.
+
+
+
