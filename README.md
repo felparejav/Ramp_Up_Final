@@ -42,11 +42,11 @@ Create AWS account
 
 ### 3. Configuration Management
 
-To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. 
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies.
 
  ### 4. CI/CD
 
-To complete this challenge, create all the Jenkins jobs needed to automate CI on the newly created environment.
+To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them!
 
  ### 5. Monitoring
 To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
