@@ -62,7 +62,7 @@ Additional steps for this setup.
   - Create a new subnet in a different availability zone.
   - Set up a DMZ with a proxy server (Nginx is recommended).
   - Use RDS service to create a read replica in one of the AZs.
-  
+
 
 ### 3. Configuration Management
 
