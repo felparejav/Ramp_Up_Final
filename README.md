@@ -53,9 +53,9 @@ Some of the steps needed:
 
 #### SetUp 2
 In case you already have some knowledge on AWS basics, this setup is meant to create a high availability architecture. This one is optional.
-  ![alt text][logo]
+  ![alt text][logo2]
 
- [logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup2.png?at=refs%2Fheads%2Fmaster "First SetUp"
+ [logo2]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup2.png?at=refs%2Fheads%2Fmaster "First SetUp"
 
 Additional steps for this setup.
   - Setup an Elastic Load Balancer.
