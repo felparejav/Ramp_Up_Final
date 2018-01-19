@@ -6,7 +6,7 @@ https://conf.endava.com/display/CDP/Continuous+Delivery+Practice
 
 https://weblog.endava.com/continuous-delivery-initiative/introduction-to-cd/
 
-This ramp-up is presented in challenges. Each challenge is chose to show new joiners the basics in some of the DevOps practices, and is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in AWS concepts. They are ordered according our current view of projects necessities. 
+This ramp-up is presented in challenges. Each challenge is chose to show new joiners the basics in some of the DevOps practices, and is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in AWS concepts. They are ordered according our current view of projects necessities.
 
 
 
@@ -18,7 +18,7 @@ Challenges 5 to 8 build upon your pipeline to include more practices. These ones
 
 ### 1. SCM: Set up git-flow
 
-The objective of this challenge is to set up git-flow on a bitbucket repository. You will be provided with access to create the branch strategy you need. 
+The objective of this challenge is to set up git-flow on a bitbucket repository. You will be provided with access to create the branch strategy you need.
 
  - Clone the repo and create **n FIXME** branches
 
@@ -33,12 +33,20 @@ The objective of this challenge is to set up the environments on which the appli
 
 To complete this challenge, create the environments following each of these steps and showcase the configuration needed.
 
-Create AWS account
+
+There are 2 setups. Create the first one to complete the Challenge.
+
+#### SetUp 1
+Reference-style:
+![alt text][logo]
+
+[logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/browse/AWS%20RampUP%20set%20up%201.png "First SetUp"
+
+ - Create AWS account
  - Setup a custom VPC
  - Setup a connection to internet
  - Create ACL ans SG's (Security)
  - Setup an EC2 instance
-
 
 ### 3. Configuration Management
 
@@ -65,6 +73,3 @@ To complete this challenge, choose tool and create the necessary scripts to auto
 ### 9. Showcase challenge
 
 If you still have time to spare, create your own challenge and show the rest of us the implementation of other DevOps dealings. Examples: Artifact Repository configuration, Test Automation Frameworks integration, Database deployment automation, packaging management automation, build scripting frameworks, release management tools, etc.
-
-
-
