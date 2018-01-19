@@ -31,22 +31,38 @@ To complete the challenge, create a branching strategy, provide a diagram of how
 
 The objective of this challenge is to set up the environments on which the application will run.
 
-To complete this challenge, create the environments following each of these steps and showcase the configuration needed.
-
+To complete this challenge, create the environments to run the application you cloned in the last environment.
 
 There are 2 setups. Create the first one to complete the Challenge.
 
+
 #### SetUp 1
-Reference-style:
+
 ![alt text][logo]
 
-[logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/browse/AWS%20RampUP%20set%20up%201.png "First SetUp"
+[logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup1.png?at=refs%2Fheads%2Fmaster "First SetUp"
 
- - Create AWS account
- - Setup a custom VPC
- - Setup a connection to internet
- - Create ACL ans SG's (Security)
- - Setup an EC2 instance
+Some of the steps needed:
+ - Create an AWS account
+ - Setup a custom VPC.
+ - Create a public and a private VPC.
+ - Create route tables.
+ - Setup a connection to internet (Internet Gateway and NAT).
+ - Create ACL ans SG's (Security).
+ - Setup an EC2 instances.
+
+#### SetUp 2
+In case you already have some knowledge on AWS basics, this setup is meant to create a high availability architecture. This one is optional.
+  ![alt text][logo]
+
+ [logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup2.png?at=refs%2Fheads%2Fmaster "First SetUp"
+
+Additional steps for this setup.
+  - Setup an Elastic Load Balancer.
+  - Create a new subnet in a different availability zone.
+  - Set up a DMZ with a proxy server (Nginx is recommended).
+  - Use RDS service to create a read replica in one of the AZs.
+  
 
 ### 3. Configuration Management
 
