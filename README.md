@@ -6,15 +6,21 @@ https://conf.endava.com/display/CDP/Continuous+Delivery+Practice
 
 https://weblog.endava.com/continuous-delivery-initiative/introduction-to-cd/
 
-This ramp-up is presented in challenges. Each challenge is chose to show new joiners the basics in some of the DevOps practices, and is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in AWS concepts. They are ordered according our current view of projects necessities.
+This ramp-up is presented in challenges. Each challenge is chose to show new joiners the basics in some of the DevOps practices, and it is designed to help us use the same language after its completion. We are tool agnostics, so you can use any tool you like, but we do have a client base that need us to be proficient in some basic AWS concepts. They are ordered according our current view of projects necessities.
 
 
 
 ## Challenges
 
-You are going to set up a Continuous Delivery pipeline for an application from scratch. In challenges 1 to 4, you will have to set up the Source Code Management tool and branching methodologies, set up cloud based environments for the application, gain experience with configuration management tools, and setting up Continuous Integration.
+You are going to set up a Continuous Delivery pipeline for an application from scratch. In challenges 1 to 4, you will have to set up the Source Code Management tool and branching methodologies, set up cloud based environments for the application, gain experience with configuration management tools, and setting up Continuous Integration. All challenges are meant to use the same application.
 
 Challenges 5 to 8 build upon your pipeline to include more practices. These ones are more open for you to choose the tool stack of your preference.
+
+
+### 0. Linux Basics
+This is an optional challenge and should be taken if you feel like refreshing your RHEL knowledge. Just finish this course for completion:
+https://www.edx.org/course/fundamentals-red-hat-enterprise-linux-red-hat-rh066x
+
 
 ### 1. SCM: Set up git-flow
 
@@ -27,13 +33,14 @@ git clone https://[user]@bitbucket.endava.com/scm/bd/devops-rampup.git
 ```
 To complete the challenge, create a branching strategy, provide a diagram of how the git flow works and the commands needed to interact to it for each actor in a software delivery team (developer, design lead, tester).
 
+
 ### 2. AWS
 
 The objective of this challenge is to set up the environments on which the application will run.
 
 To complete this challenge, create the environments to run the application you cloned in the last environment.
 
-There are 2 setups. Create the first one to complete the Challenge.
+There are 2 setups. Create at least the first one to complete the Challenge.
 
 
 #### SetUp 1
@@ -66,13 +73,14 @@ Additional steps for this setup.
 
 ### 3. Configuration Management
 
-To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies.
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
 
- ### 4. CI/CD
+### 4. CI/CD
 
-To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them!
+To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
 
- ### 5. Monitoring
+
+### 5. Monitoring
 To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
 
 ### 6. Containerization
