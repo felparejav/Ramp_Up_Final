@@ -70,15 +70,13 @@ Additional steps for this setup.
   - Set up a DMZ with a proxy server (Nginx is recommended).
   - Use RDS service to create a read replica in one of the AZs.
 
-
-### 3. Configuration Management
-
-To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
-
-### 4. CI/CD
+### 3. CI/CD
 
 To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
 
+### 4. Configuration Management
+
+To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
 
 ### 5. Monitoring
 To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
