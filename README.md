@@ -74,23 +74,23 @@ Additional steps for this setup.
 
 To complete this challenge, create all the Jenkins jobs needed to automate CI/CD on the newly created environment. Check the application folders create separate repos and deploy them automatically every time there's a new change in the code repository. If you feel like using a different CI tool, please do!
 
-### 4. Configuration Management
+### 4. Infrastructure as a code
+
+To complete this challenge, choose tool and create the necessary scripts to automate the provisioning of the environments for the application.
+
+### 5. Configuration Management
 
 To complete this challenge, use any CM tool to automate the deployment of the application requirements in the newly created environment. See the 2 application folders in order to find out what are their dependencies. Some of the tools we use are Chef, Puppet, and Ansible.
 
-### 5. Monitoring
+### 6. Monitoring
 To complete this challenge, define a tool stack, install and set up a monitoring strategy for the environments.
 
-### 6. Containerization
+### 7. Containerization
 To complete this challenge, create registry, dockerfiles and images for the installed apps.
 
-### 7. Orchestration and clustering
+### 8. Orchestration and clustering
 
 To complete this challenge, choose a tool and create cluster for the app we've used.
-
-### 8. Infrastructure as a code
-
-To complete this challenge, choose tool and create the necessary scripts to automate the provisioning of the environments for the application.
 
 ### 9. Showcase challenge
 
