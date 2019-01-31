@@ -47,7 +47,7 @@ There are 2 setups. Create at least the first one to complete the Challenge.
 
 ![alt text][logo]
 
-[logo]:https://bitbucket.endava.com/projects/BD/repos/devops-rampup/raw/AWSSetup3.png?at=refs%2Fheads%2Fmaster "First SetUp"
+[logo]:AWSSetup3.png "First SetUp"
 
 Some of the steps needed:
  - Create an AWS account
